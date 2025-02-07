@@ -10,15 +10,13 @@ const cartRoute=require("./routes/cartRoutes")
 
 app.use(bodyParser.json());
 
-const allowedOrigin = "https://fontend-shoppingpage.vercel.app";
+const allowedOrigin = process.env.FRONT_END;
 
 app.use(cors({
   origin: allowedOrigin,  // Use the exact frontend URL here
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true  // Allow credentials to be sent
 }));
-
-
 
 
 
@@ -31,7 +29,6 @@ app.use("/images",express.static("uploads/images"))
 app.use("/api/user",userRoute)
 app.use("/api/admin",adminRoute)
 app.use("/api/cart",cartRoute)
-
 
   const PORT = process.env.PORT || 5000;
 
