@@ -10,7 +10,7 @@ const cartRoute=require("./routes/cartRoutes")
 
 app.use(bodyParser.json());
 
-const allowedOrigin = process.env.FRONT_END;
+const allowedOrigin = "https://ecommercefrontend-sepia-psi.vercel.app";
 
 app.use(cors({
   origin: allowedOrigin,  // Use the exact frontend URL here
