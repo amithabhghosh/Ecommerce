@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { Provider } from 'react-redux'
 import {createBrowserRouter,RouterProvider} from "react-router-dom"
-import { Adminpage } from './pages/AdminPage/Adminpage.jsx'
+import { Adminpage } from './pages/AdminPage/AdminPage.jsx'
 import { AdminAddProduct } from './pages/AdminPage/AdminAddProduct.jsx'
 import { SignUpPage } from './pages/UserPages/SignUpPage.jsx'
 import { LoginPage } from './pages/UserPages/LoginPage.jsx'
