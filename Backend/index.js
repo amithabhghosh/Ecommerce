@@ -30,7 +30,7 @@ app.use("/api/user",userRoute)
 app.use("/api/admin",adminRoute)
 app.use("/api/cart",cartRoute)
 
-  const PORT = process.env.PORT || 5000;
+  const PORT = process.env.PORT || 0;
 
   mongoose.connect(process.env.MONGO_URI,{useNewUrlParser:true,useUnifiedTopology:true})
 .then(()=>console.log("mongodb Connected Succesfully"))
