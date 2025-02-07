@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import '../AllProducts/Allproducts.css'
+import '../AllProducts/AllProducts.css'
 import { Items } from '../Items/Items'
 import API from '../../ConnectApi'
 export const KidProduct = () => {

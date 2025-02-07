@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Items } from '../Items/Items'
-import '../AllProducts/Allproducts.css'
+import '../AllProducts/AllProducts.css'
 import API from '../../ConnectApi'
 export const WomenProduct = () => {
     const [womenProduct,setWomenProduct]=useState([])

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './Allproducts.css'
+import './AllProducts.css'
 import API from '../../ConnectApi'
 import {Items} from '../Items/Items'
 export const Allproducts = () => {
